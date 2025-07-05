@@ -1,2 +1,340 @@
-# Xll
-Mohamad
+{
+  "dns": {
+    "final": "local-dns",
+    "rules": [
+      {
+        "clash_mode": "Global",
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "server": "proxy-dns",
+        "source_ip_cidr": [
+          "172.19.0.0/30"
+        ]
+      },
+      {
+        "clash_mode": "Direct",
+        "server": "direct-dns"
+      },
+      {
+        "rule_set": [
+          "geosite-ir"
+        ],
+        "server": "direct-dns"
+      },
+      {
+        "rule_set": [
+          "geosite-category-ads-all",
+          "geosite-malware",
+          "geosite-phishing",
+          "geosite-cryptominers"
+        ],
+        "server": "block"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tls://208.67.222.123",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "block"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "address": [
+        "172.19.0.1/30",
+        "fdfe:dcba:9876::1/126"
+      ],
+      "auto_route": true,
+      "endpoint_independent_nat": false,
+      "mtu": 9000,
+      "platform": {
+        "http_proxy": {
+          "enabled": true,
+          "server": "127.0.0.1",
+          "server_port": 2080
+        }
+      },
+      "sniff": true,
+      "stack": "system",
+      "strict_route": false,
+      "type": "tun"
+    },
+    {
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "type": "mixed",
+      "users": []
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "proxy",
+      "type": "selector",
+      "outbounds": [
+        "auto",
+        "vmess-Kedmaan-1",
+        "vless-Kedmaan-1",
+        "ss-Kedmaan-1",
+        "vless-Kedmaan-2",
+        "vless-Kedmaan-3",
+        "vless-Kedmaan-4",
+        "vless-Kedmaan-5",
+        "direct"
+      ]
+    },
+    {
+      "tag": "auto",
+      "type": "urltest",
+      "outbounds": [
+        "vmess-Kedmaan-1",
+        "vless-Kedmaan-1",
+        "ss-Kedmaan-1",
+        "vless-Kedmaan-2",
+        "vless-Kedmaan-3",
+        "vless-Kedmaan-4",
+        "vless-Kedmaan-5"
+      ],
+      "url": "http://www.gstatic.com/generate_204",
+      "interval": "10m",
+      "tolerance": 50
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-Kedmaan-1",
+      "server": "87.247.169.136",
+      "server_port": 2083,
+      "uuid": "48388b3d-594a-48ca-b4ad-af20a8aa1da5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "87.247.169.136"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Kedmaan-1",
+      "server": "1gjvo4obcq-919923991-direct.khastehnabashi.com",
+      "server_port": 443,
+      "uuid": "1gjvo4obcq",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "1gjvo4obcq-919923991-direct.khastehnabashi.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-Kedmaan-1",
+      "server": "1gjvo4obcq-919923991-direct.khastehnabashi.com",
+      "server_port": 443,
+      "method": "Ö\bï£\u001br"
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Kedmaan-2",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "74b664fe-af09-4341-93c0-fbc802a0e97e",
+      "flow": "",
+      "transport": {
+        "path": "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560",
+        "headers": {
+          "Host": "ltonvmconxhvgnsxsnez.curfuffled.com"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ltonvmconxhvgnsxsnez.curfuffled.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Kedmaan-3",
+      "server": "login.v2buyalpha.xyz",
+      "server_port": 22766,
+      "uuid": "6aaa9989-24f4-4bbb-8528-6aeef2c7a289",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "espn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Kedmaan-4",
+      "server": "209.38.202.192",
+      "server_port": 42030,
+      "uuid": "f6bd0b57-1e1c-4dd1-8f1c-939cb96bdb0a",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "journalofbigdata.springeropen.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Kedmaan-5",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "a0498620-0170-469b-a3f8-576ac3b45168",
+      "flow": "",
+      "transport": {
+        "path": "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560",
+        "headers": {
+          "Host": "ltonvmconxhvgnsxsnez.curfuffled.com"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "ltonvmconxhvgnsxsnez.curfuffled.com",
+        "insecure": true
+      }
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "final": "proxy",
+    "rules": [
+      {
+        "clash_mode": "Direct",
+        "outbound": "direct"
+      },
+      {
+        "clash_mode": "Global",
+        "outbound": "proxy"
+      },
+      {
+        "protocol": "dns",
+        "action": "hijack-dns"
+      },
+      {
+        "domain_suffix": [
+          ".ir"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geoip-ir",
+          "geosite-ir"
+        ],
+        "outbound": "direct"
+      },
+      {
+        "rule_set": [
+          "geosite-category-ads-all",
+          "geosite-malware",
+          "geosite-phishing",
+          "geosite-cryptominers",
+          "geoip-malware",
+          "geoip-phishing"
+        ],
+        "outbound": "block"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-ir",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-category-ads-all",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-malware",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-phishing",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geosite-cryptominers",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geoip-ir",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geoip-malware",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      },
+      {
+        "tag": "geoip-phishing",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
+        "download_detour": "direct",
+        "update_interval": "1d"
+      }
+    ]
+  }
+}
