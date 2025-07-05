@@ -95,12 +95,6 @@
       "outbounds": [
         "auto",
         "vmess-Xll-1",
-        "vless-Xll-1",
-        "ss-Xll-1",
-        "vless-Xll-2",
-        "vless-Xll-3",
-        "vless-Xll-4",
-        "vless-Xll-5",
         "direct"
       ]
     },
@@ -108,13 +102,7 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vmess-Xll-1",
-        "vless-Xll-1",
-        "ss-Xll-1",
-        "vless-Xll-2",
-        "vless-Xll-3",
-        "vless-Xll-4",
-        "vless-Xll-5"
+        "vmess-Xll-1"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -137,95 +125,6 @@
         "enabled": false,
         "insecure": true,
         "server_name": "87.247.169.136"
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-Xll-1",
-      "server": "1gjvo4obcq-919923991-direct.khastehnabashi.com",
-      "server_port": 443,
-      "uuid": "1gjvo4obcq",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "1gjvo4obcq-919923991-direct.khastehnabashi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ss-Xll-1",
-      "server": "1gjvo4obcq-919923991-direct.khastehnabashi.com",
-      "server_port": 443,
-      "method": "Ö\bï£\u001br"
-    },
-    {
-      "type": "vless",
-      "tag": "vless-Xll-2",
-      "server": "104.17.147.22",
-      "server_port": 443,
-      "uuid": "74b664fe-af09-4341-93c0-fbc802a0e97e",
-      "flow": "",
-      "transport": {
-        "path": "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560",
-        "headers": {
-          "Host": "ltonvmconxhvgnsxsnez.curfuffled.com"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ltonvmconxhvgnsxsnez.curfuffled.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-Xll-3",
-      "server": "login.v2buyalpha.xyz",
-      "server_port": 22766,
-      "uuid": "6aaa9989-24f4-4bbb-8528-6aeef2c7a289",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "espn.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-Xll-4",
-      "server": "209.38.202.192",
-      "server_port": 42030,
-      "uuid": "f6bd0b57-1e1c-4dd1-8f1c-939cb96bdb0a",
-      "flow": "",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "journalofbigdata.springeropen.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-Xll-5",
-      "server": "104.17.147.22",
-      "server_port": 443,
-      "uuid": "a0498620-0170-469b-a3f8-576ac3b45168",
-      "flow": "",
-      "transport": {
-        "path": "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560",
-        "headers": {
-          "Host": "ltonvmconxhvgnsxsnez.curfuffled.com"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": true,
-        "server_name": "ltonvmconxhvgnsxsnez.curfuffled.com",
-        "insecure": true
       }
     }
   ],
