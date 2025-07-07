@@ -18,21 +18,6 @@
       {
         "clash_mode": "Direct",
         "server": "direct-dns"
-      },
-      {
-        "rule_set": [
-          "geosite-ir"
-        ],
-        "server": "direct-dns"
-      },
-      {
-        "rule_set": [
-          "geosite-category-ads-all",
-          "geosite-malware",
-          "geosite-phishing",
-          "geosite-cryptominers"
-        ],
-        "server": "block"
       }
     ],
     "servers": [
@@ -94,20 +79,17 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vmess-Elp-1",
-        "vless-Elp-1",
-        "vless-Elp-2",
-        "hysteria2-Elp-1",
-        "vmess-Elp-2",
-        "vless-Elp-3",
-        "ss-Elp-1",
-        "vless-Elp-4",
-        "vless-Elp-5",
-        "vless-Elp-6",
-        "vless-Elp-7",
-        "vless-Elp-8",
-        "vless-Elp-9",
-        "vless-Elp-10",
+        "vmess-e9987f09",
+        "vless-d3543951",
+        "vless-ecb696ef",
+        "hysteria2-aba59789",
+        "vless-a257550d",
+        "vless-ca2f8224",
+        "vless-1e640c87",
+        "vless-a6c990d7",
+        "vless-d904e040",
+        "vless-840386ad",
+        "vless-55be9d36",
         "direct"
       ]
     },
@@ -115,20 +97,17 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vmess-Elp-1",
-        "vless-Elp-1",
-        "vless-Elp-2",
-        "hysteria2-Elp-1",
-        "vmess-Elp-2",
-        "vless-Elp-3",
-        "ss-Elp-1",
-        "vless-Elp-4",
-        "vless-Elp-5",
-        "vless-Elp-6",
-        "vless-Elp-7",
-        "vless-Elp-8",
-        "vless-Elp-9",
-        "vless-Elp-10"
+        "vmess-e9987f09",
+        "vless-d3543951",
+        "vless-ecb696ef",
+        "hysteria2-aba59789",
+        "vless-a257550d",
+        "vless-ca2f8224",
+        "vless-1e640c87",
+        "vless-a6c990d7",
+        "vless-d904e040",
+        "vless-840386ad",
+        "vless-55be9d36"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -140,7 +119,7 @@
     },
     {
       "type": "vmess",
-      "tag": "vmess-Elp-1",
+      "tag": "vmess-e9987f09",
       "server": "87.247.169.136",
       "server_port": 2083,
       "uuid": "48388b3d-594a-48ca-b4ad-af20a8aa1da5",
@@ -155,7 +134,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-1",
+      "tag": "vless-d3543951",
       "server": "104.17.147.22",
       "server_port": 443,
       "uuid": "74b664fe-af09-4341-93c0-fbc802a0e97e",
@@ -175,7 +154,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-2",
+      "tag": "vless-ecb696ef",
       "server": "login.v2buyalpha.xyz",
       "server_port": 22766,
       "uuid": "6aaa9989-24f4-4bbb-8528-6aeef2c7a289",
@@ -189,7 +168,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-Elp-1",
+      "tag": "hysteria2-aba59789",
       "server": "45.150.32.48",
       "server_port": 18880,
       "password": "IzPVKVOfJk",
@@ -200,50 +179,8 @@
       }
     },
     {
-      "type": "vmess",
-      "tag": "vmess-Elp-2",
-      "server": "npmjs.com",
-      "server_port": 8080,
-      "uuid": "xymkalnrm8",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "xymkalnrm8-16197102189.mashallahbet.com"
-        },
-        "type": "ws"
-      },
-      "tls": {
-        "enabled": false,
-        "insecure": true,
-        "server_name": "npmjs.com"
-      }
-    },
-    {
       "type": "vless",
-      "tag": "vless-Elp-3",
-      "server": "91.99.204.35",
-      "server_port": 443,
-      "uuid": "2iroiiigdy",
-      "flow": "xtls-rprx-vision",
-      "transport": {},
-      "tls": {
-        "enabled": true,
-        "server_name": "2iroiiigdy-919920435-direct.khastehnabashi.com",
-        "insecure": true
-      }
-    },
-    {
-      "type": "shadowsocks",
-      "tag": "ss-Elp-1",
-      "server": "91.99.204.35",
-      "server_port": 443,
-      "method": "Ú*è( w"
-    },
-    {
-      "type": "vless",
-      "tag": "vless-Elp-4",
+      "tag": "vless-a257550d",
       "server": "116.203.69.142",
       "server_port": 2087,
       "uuid": "5d71b518-9f52-414a-abf2-b806684233be",
@@ -257,7 +194,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-5",
+      "tag": "vless-ca2f8224",
       "server": "104.18.26.90",
       "server_port": 80,
       "uuid": "92f481b6-ad92-43e4-a683-2bb0aeaa9846",
@@ -277,7 +214,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-6",
+      "tag": "vless-1e640c87",
       "server": "104.18.26.90",
       "server_port": 443,
       "uuid": "941d092e-8313-452a-ba21-c9995dcba79d",
@@ -297,7 +234,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-7",
+      "tag": "vless-a6c990d7",
       "server": "104.18.26.90",
       "server_port": 80,
       "uuid": "148709e4-402b-48dd-8892-ed39b55ea45c",
@@ -317,7 +254,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-8",
+      "tag": "vless-d904e040",
       "server": "151.101.3.8",
       "server_port": 80,
       "uuid": "turboo-server",
@@ -331,7 +268,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-9",
+      "tag": "vless-840386ad",
       "server": "104.16.243.59",
       "server_port": 443,
       "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
@@ -351,7 +288,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-Elp-10",
+      "tag": "vless-55be9d36",
       "server": "142.132.227.65",
       "server_port": 443,
       "uuid": "63019453-2aaa-49a4-aa30-966ab739e6fc",
@@ -379,96 +316,6 @@
       {
         "protocol": "dns",
         "action": "hijack-dns"
-      },
-      {
-        "domain_suffix": [
-          ".ir"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "rule_set": [
-          "geoip-ir",
-          "geosite-ir"
-        ],
-        "outbound": "direct"
-      },
-      {
-        "rule_set": [
-          "geosite-category-ads-all",
-          "geosite-malware",
-          "geosite-phishing",
-          "geosite-cryptominers",
-          "geoip-malware",
-          "geoip-phishing"
-        ],
-        "outbound": "block"
-      }
-    ],
-    "rule_set": [
-      {
-        "tag": "geosite-ir",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-ir.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geosite-category-ads-all",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-category-ads-all.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geosite-malware",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-malware.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geosite-phishing",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-phishing.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geosite-cryptominers",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geosite-cryptominers.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geoip-ir",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-ir.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geoip-malware",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-malware.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
-      },
-      {
-        "tag": "geoip-phishing",
-        "type": "remote",
-        "format": "binary",
-        "url": "https://raw.githubusercontent.com/Chocolate4U/Iran-sing-box-rules/rule-set/geoip-phishing.srs",
-        "download_detour": "direct",
-        "update_interval": "1d"
       }
     ]
   }
