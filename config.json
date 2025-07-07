@@ -94,7 +94,20 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "vless-Io-1",
+        "vmess-Elp-1",
+        "vless-Elp-1",
+        "vless-Elp-2",
+        "hysteria2-Elp-1",
+        "vmess-Elp-2",
+        "vless-Elp-3",
+        "ss-Elp-1",
+        "vless-Elp-4",
+        "vless-Elp-5",
+        "vless-Elp-6",
+        "vless-Elp-7",
+        "vless-Elp-8",
+        "vless-Elp-9",
+        "vless-Elp-10",
         "direct"
       ]
     },
@@ -102,7 +115,20 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "vless-Io-1"
+        "vmess-Elp-1",
+        "vless-Elp-1",
+        "vless-Elp-2",
+        "hysteria2-Elp-1",
+        "vmess-Elp-2",
+        "vless-Elp-3",
+        "ss-Elp-1",
+        "vless-Elp-4",
+        "vless-Elp-5",
+        "vless-Elp-6",
+        "vless-Elp-7",
+        "vless-Elp-8",
+        "vless-Elp-9",
+        "vless-Elp-10"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -113,22 +139,227 @@
       "type": "direct"
     },
     {
+      "type": "vmess",
+      "tag": "vmess-Elp-1",
+      "server": "87.247.169.136",
+      "server_port": 2083,
+      "uuid": "48388b3d-594a-48ca-b4ad-af20a8aa1da5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {},
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "87.247.169.136"
+      }
+    },
+    {
       "type": "vless",
-      "tag": "vless-Io-1",
-      "server": "main.systemgamingirani.ir",
-      "server_port": 2082,
-      "uuid": "e3035fb5-4a77-49ed-8a20-44c95f5de0fe",
+      "tag": "vless-Elp-1",
+      "server": "104.17.147.22",
+      "server_port": 443,
+      "uuid": "74b664fe-af09-4341-93c0-fbc802a0e97e",
       "flow": "",
       "transport": {
-        "path": "/?ed=2052",
+        "path": "/vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl-vpnowl?ed=2560",
         "headers": {
-          "Host": "www.speedtest.net.tps.debian.org.gr.systemgamingirani.ir"
+          "Host": "ltonvmconxhvgnsxsnez.curfuffled.com"
         },
         "type": "ws"
       },
       "tls": {
         "enabled": true,
-        "server_name": "main.systemgamingirani.ir",
+        "server_name": "ltonvmconxhvgnsxsnez.curfuffled.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-2",
+      "server": "login.v2buyalpha.xyz",
+      "server_port": 22766,
+      "uuid": "6aaa9989-24f4-4bbb-8528-6aeef2c7a289",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "espn.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-Elp-1",
+      "server": "45.150.32.48",
+      "server_port": 18880,
+      "password": "IzPVKVOfJk",
+      "tls": {
+        "enabled": true,
+        "server_name": "45.150.32.48",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vmess",
+      "tag": "vmess-Elp-2",
+      "server": "npmjs.com",
+      "server_port": 8080,
+      "uuid": "xymkalnrm8",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "path": "/nasnet/cdn",
+        "headers": {
+          "Host": "xymkalnrm8-16197102189.mashallahbet.com"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": false,
+        "insecure": true,
+        "server_name": "npmjs.com"
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-3",
+      "server": "91.99.204.35",
+      "server_port": 443,
+      "uuid": "2iroiiigdy",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "2iroiiigdy-919920435-direct.khastehnabashi.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "ss-Elp-1",
+      "server": "91.99.204.35",
+      "server_port": 443,
+      "method": "Ú*è( w"
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-4",
+      "server": "116.203.69.142",
+      "server_port": 2087,
+      "uuid": "5d71b518-9f52-414a-abf2-b806684233be",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "its.zarashop0.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-5",
+      "server": "104.18.26.90",
+      "server_port": 80,
+      "uuid": "92f481b6-ad92-43e4-a683-2bb0aeaa9846",
+      "flow": "",
+      "transport": {
+        "path": "/?ed=2590/?JOKERRVPNTELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN",
+        "headers": {
+          "Host": "dw.alibichareh.dpdns.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "104.18.26.90",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-6",
+      "server": "104.18.26.90",
+      "server_port": 443,
+      "uuid": "941d092e-8313-452a-ba21-c9995dcba79d",
+      "flow": "",
+      "transport": {
+        "path": "/?ed=2560/?TELEGRAM----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN----@JOKERRVPN",
+        "headers": {
+          "Host": "havvas.shohreh.dpdns.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "havvas.shohreh.dpdns.org",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-7",
+      "server": "104.18.26.90",
+      "server_port": 80,
+      "uuid": "148709e4-402b-48dd-8892-ed39b55ea45c",
+      "flow": "",
+      "transport": {
+        "path": "/?ed=2560",
+        "headers": {
+          "Host": "barayeiranmahsang.loseyourself.dpdns.org"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "104.18.26.90",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-8",
+      "server": "151.101.3.8",
+      "server_port": 80,
+      "uuid": "turboo-server",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "151.101.3.8",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-9",
+      "server": "104.16.243.59",
+      "server_port": 443,
+      "uuid": "75fde681-ec64-4654-86fa-30732e8e179c",
+      "flow": "",
+      "transport": {
+        "path": "/assets",
+        "headers": {
+          "Host": "NGINX.NSCl.IR"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "NGINX.NSCl.IR",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-Elp-10",
+      "server": "142.132.227.65",
+      "server_port": 443,
+      "uuid": "63019453-2aaa-49a4-aa30-966ab739e6fc",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "142.132.227.65",
         "insecure": true
       }
     }
