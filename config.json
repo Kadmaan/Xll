@@ -79,39 +79,49 @@
       "type": "selector",
       "outbounds": [
         "auto",
-        "hysteria2-548eaa50",
-        "vless-6bb5e686",
-        "vless-68394b88",
-        "vmess-fde1fbcc",
-        "hysteria2-cd612dc3",
-        "hysteria2-06bd0eea",
-        "vless-deb5d1d9",
-        "hysteria2-05d201ea",
-        "hysteria2-6fc01047",
-        "vless-4e8e4990",
-        "vless-ad86176e",
-        "vless-2a6f6b88",
-        "hysteria2-8fa9a106",
-        "hysteria2-bb49dd39",
-        "hysteria2-840c7be6",
-        "hysteria2-c7a24b50",
-        "vless-c4d40130",
-        "hysteria2-b80dc48a",
-        "vless-98409aa2",
-        "hysteria2-cfc8cad5",
-        "hysteria2-aea4fb9e",
-        "hysteria2-0ae996a1",
-        "hysteria2-0d244b9d",
-        "hysteria2-f9300253",
-        "hysteria2-4806b6c2",
-        "hysteria2-28b3f913",
-        "hysteria2-92b69459",
-        "hysteria2-12ca7ad7",
-        "hysteria2-0644071b",
-        "vless-cbf385a0",
-        "vless-5afb7ede",
-        "vless-9a0b6b72",
-        "hysteria2-9ea9834f",
+        "hysteria2-8664665d",
+        "vless-dc6d53c2",
+        "vless-0e528513",
+        "vmess-d5aaf72a",
+        "hysteria2-1c2f5b00",
+        "hysteria2-71505803",
+        "vless-eff25ad6",
+        "hysteria2-862be307",
+        "hysteria2-8a8cb749",
+        "vless-e71424b2",
+        "vless-6c72f422",
+        "vless-79ed324a",
+        "hysteria2-6f7b93d5",
+        "hysteria2-c1447287",
+        "hysteria2-20dd4af5",
+        "hysteria2-985167fd",
+        "vless-de8cb77b",
+        "hysteria2-91f9b6e4",
+        "vless-17303593",
+        "hysteria2-085d7232",
+        "hysteria2-632d6738",
+        "hysteria2-0d887dff",
+        "hysteria2-297df680",
+        "hysteria2-c54e60cb",
+        "hysteria2-00fae0dd",
+        "hysteria2-3d96358e",
+        "hysteria2-eb86f3f8",
+        "hysteria2-67644dfb",
+        "hysteria2-828cd6a4",
+        "vless-af53e745",
+        "vless-184729cc",
+        "vless-d6c20c13",
+        "vless-8db8561d",
+        "vless-148c47ad",
+        "hysteria2-52cf9d08",
+        "hysteria2-7acc1926",
+        "vless-b36b1ed1",
+        "vless-9dd91158",
+        "vless-faebf062",
+        "vless-787814ca",
+        "vless-dbf78d70",
+        "vless-67dd1ec8",
+        "vless-f9e8689e",
         "direct"
       ]
     },
@@ -119,39 +129,49 @@
       "tag": "auto",
       "type": "urltest",
       "outbounds": [
-        "hysteria2-548eaa50",
-        "vless-6bb5e686",
-        "vless-68394b88",
-        "vmess-fde1fbcc",
-        "hysteria2-cd612dc3",
-        "hysteria2-06bd0eea",
-        "vless-deb5d1d9",
-        "hysteria2-05d201ea",
-        "hysteria2-6fc01047",
-        "vless-4e8e4990",
-        "vless-ad86176e",
-        "vless-2a6f6b88",
-        "hysteria2-8fa9a106",
-        "hysteria2-bb49dd39",
-        "hysteria2-840c7be6",
-        "hysteria2-c7a24b50",
-        "vless-c4d40130",
-        "hysteria2-b80dc48a",
-        "vless-98409aa2",
-        "hysteria2-cfc8cad5",
-        "hysteria2-aea4fb9e",
-        "hysteria2-0ae996a1",
-        "hysteria2-0d244b9d",
-        "hysteria2-f9300253",
-        "hysteria2-4806b6c2",
-        "hysteria2-28b3f913",
-        "hysteria2-92b69459",
-        "hysteria2-12ca7ad7",
-        "hysteria2-0644071b",
-        "vless-cbf385a0",
-        "vless-5afb7ede",
-        "vless-9a0b6b72",
-        "hysteria2-9ea9834f"
+        "hysteria2-8664665d",
+        "vless-dc6d53c2",
+        "vless-0e528513",
+        "vmess-d5aaf72a",
+        "hysteria2-1c2f5b00",
+        "hysteria2-71505803",
+        "vless-eff25ad6",
+        "hysteria2-862be307",
+        "hysteria2-8a8cb749",
+        "vless-e71424b2",
+        "vless-6c72f422",
+        "vless-79ed324a",
+        "hysteria2-6f7b93d5",
+        "hysteria2-c1447287",
+        "hysteria2-20dd4af5",
+        "hysteria2-985167fd",
+        "vless-de8cb77b",
+        "hysteria2-91f9b6e4",
+        "vless-17303593",
+        "hysteria2-085d7232",
+        "hysteria2-632d6738",
+        "hysteria2-0d887dff",
+        "hysteria2-297df680",
+        "hysteria2-c54e60cb",
+        "hysteria2-00fae0dd",
+        "hysteria2-3d96358e",
+        "hysteria2-eb86f3f8",
+        "hysteria2-67644dfb",
+        "hysteria2-828cd6a4",
+        "vless-af53e745",
+        "vless-184729cc",
+        "vless-d6c20c13",
+        "vless-8db8561d",
+        "vless-148c47ad",
+        "hysteria2-52cf9d08",
+        "hysteria2-7acc1926",
+        "vless-b36b1ed1",
+        "vless-9dd91158",
+        "vless-faebf062",
+        "vless-787814ca",
+        "vless-dbf78d70",
+        "vless-67dd1ec8",
+        "vless-f9e8689e"
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -163,7 +183,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-548eaa50",
+      "tag": "hysteria2-8664665d",
       "server": "77.90.52.69",
       "server_port": 35000,
       "password": "%40JavidnamanIran-Javid-SHAH-KingRezaPahlavi",
@@ -175,7 +195,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-6bb5e686",
+      "tag": "vless-dc6d53c2",
       "server": "41.216.182.162",
       "server_port": 443,
       "uuid": "407fcb9c-021f-5f2c-bf6c-a58f72d1f5fc",
@@ -195,7 +215,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-68394b88",
+      "tag": "vless-0e528513",
       "server": "login.v2buyalpha.xyz",
       "server_port": 22766,
       "uuid": "6aaa9989-24f4-4bbb-8528-6aeef2c7a289",
@@ -209,7 +229,7 @@
     },
     {
       "type": "vmess",
-      "tag": "vmess-fde1fbcc",
+      "tag": "vmess-d5aaf72a",
       "server": "87.247.169.136",
       "server_port": 2083,
       "uuid": "48388b3d-594a-48ca-b4ad-af20a8aa1da5",
@@ -224,7 +244,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-cd612dc3",
+      "tag": "hysteria2-1c2f5b00",
       "server": "185.126.255.78",
       "server_port": 37058,
       "password": "5eaa121d-4362-444d-8219-29b02c35303a",
@@ -236,7 +256,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-06bd0eea",
+      "tag": "hysteria2-71505803",
       "server": "185.126.255.78",
       "server_port": 37058,
       "password": "80b2ac81-ba69-41f9-bb46-820b7b3af4dd",
@@ -248,7 +268,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-deb5d1d9",
+      "tag": "vless-eff25ad6",
       "server": "owl.curfuffled.com",
       "server_port": 443,
       "uuid": "a0498620-0170-469b-a3f8-576ac3b45168",
@@ -268,7 +288,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-05d201ea",
+      "tag": "hysteria2-862be307",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 35200,
       "password": "Yet-Another-Public-Config-1",
@@ -280,7 +300,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-6fc01047",
+      "tag": "hysteria2-8a8cb749",
       "server": "45.150.32.48",
       "server_port": 18880,
       "password": "IzPVKVOfJk",
@@ -292,7 +312,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-4e8e4990",
+      "tag": "vless-e71424b2",
       "server": "5.180.30.106",
       "server_port": 443,
       "uuid": "aaaa8f7a-4b22-5f01-9b91-95f368ef38c7",
@@ -312,7 +332,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-ad86176e",
+      "tag": "vless-6c72f422",
       "server": "45.12.144.8",
       "server_port": 443,
       "uuid": "63fbc23e-4a02-5baf-89ba-0fe5dd6e98fd",
@@ -332,7 +352,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-2a6f6b88",
+      "tag": "vless-79ed324a",
       "server": "194.226.121.190",
       "server_port": 443,
       "uuid": "66887fd8-94c8-5024-ad7e-46ffdd7f5bfc",
@@ -352,7 +372,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-8fa9a106",
+      "tag": "hysteria2-6f7b93d5",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36300,
       "password": "Yet-Another-Public-Config-1",
@@ -364,7 +384,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-bb49dd39",
+      "tag": "hysteria2-c1447287",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36300,
       "password": "Yet-Another-Public-Config-1",
@@ -376,7 +396,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-840c7be6",
+      "tag": "hysteria2-20dd4af5",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 36400,
       "password": "Yet-Another-Public-Config-1",
@@ -388,7 +408,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-c7a24b50",
+      "tag": "hysteria2-985167fd",
       "server": "yapc-1.adamhayward.co.uk",
       "server_port": 35200,
       "password": "Yet-Another-Public-Config-1",
@@ -400,7 +420,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-c4d40130",
+      "tag": "vless-de8cb77b",
       "server": "login.v2buyalpha.xyz",
       "server_port": 36725,
       "uuid": "5c8f2506-8fa9-4b0a-b119-d3c498b755ed",
@@ -414,7 +434,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-b80dc48a",
+      "tag": "hysteria2-91f9b6e4",
       "server": "23.132.228.217",
       "server_port": 49572,
       "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
@@ -426,7 +446,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-98409aa2",
+      "tag": "vless-17303593",
       "server": "45.12.132.142",
       "server_port": 443,
       "uuid": "57511480-2d8d-58db-bfff-7267260383f2",
@@ -446,7 +466,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-cfc8cad5",
+      "tag": "hysteria2-085d7232",
       "server": "172.252.236.213",
       "server_port": 56704,
       "password": "ebbeef45-0fd8-40cd-aca5-1e2ce18abeff",
@@ -458,7 +478,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-aea4fb9e",
+      "tag": "hysteria2-632d6738",
       "server": "23.132.228.217",
       "server_port": 49572,
       "password": "9c859345-959f-491b-b6fc-65cd7a57aeb3",
@@ -470,7 +490,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-0ae996a1",
+      "tag": "hysteria2-0d887dff",
       "server": "172.252.236.213",
       "server_port": 56704,
       "password": "80b2ac81-ba69-41f9-bb46-820b7b3af4dd",
@@ -482,7 +502,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-0d244b9d",
+      "tag": "hysteria2-297df680",
       "server": "172.252.236.213",
       "server_port": 56704,
       "password": "e31ad3e6-e341-42ac-bdc7-bea02d126fc1",
@@ -494,7 +514,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-f9300253",
+      "tag": "hysteria2-c54e60cb",
       "server": "23.132.228.217",
       "server_port": 49572,
       "password": "80b2ac81-ba69-41f9-bb46-820b7b3af4dd",
@@ -506,7 +526,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-4806b6c2",
+      "tag": "hysteria2-00fae0dd",
       "server": "23.132.228.217",
       "server_port": 49572,
       "password": "52816135-d3bc-46bc-a915-09886a2e2b2e",
@@ -518,7 +538,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-28b3f913",
+      "tag": "hysteria2-3d96358e",
       "server": "172.252.236.213",
       "server_port": 56704,
       "password": "413c8b50-96bf-4457-82f2-54dfa8685f53",
@@ -530,7 +550,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-92b69459",
+      "tag": "hysteria2-eb86f3f8",
       "server": "23.132.228.217",
       "server_port": 49572,
       "password": "5eaa121d-4362-444d-8219-29b02c35303a",
@@ -542,7 +562,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-12ca7ad7",
+      "tag": "hysteria2-67644dfb",
       "server": "23.132.228.217",
       "server_port": 49572,
       "password": "f901861b-6491-450c-b500-606b2e921625",
@@ -554,7 +574,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "hysteria2-0644071b",
+      "tag": "hysteria2-828cd6a4",
       "server": "172.252.236.213",
       "server_port": 56704,
       "password": "55ca7a9e-cf90-49df-b14a-9346c59b73b9",
@@ -566,7 +586,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-cbf385a0",
+      "tag": "vless-af53e745",
       "server": "185.120.59.70",
       "server_port": 2087,
       "uuid": "f7728501-0797-4cfa-af4b-989a215dae7c",
@@ -586,7 +606,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-5afb7ede",
+      "tag": "vless-184729cc",
       "server": "tr.x8net.world",
       "server_port": 443,
       "uuid": "18449203-c21f-431a-911f-4affde2a321e",
@@ -600,7 +620,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-9a0b6b72",
+      "tag": "vless-d6c20c13",
       "server": "ru.x8net.world",
       "server_port": 443,
       "uuid": "18449203-c21f-431a-911f-4affde2a321e",
@@ -613,14 +633,164 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "vless-8db8561d",
+      "server": "45.89.52.193",
+      "server_port": 443,
+      "uuid": "d3a3b3e9-96d9-52d9-9f18-d36bab2aa3e4",
+      "flow": "",
+      "transport": {
+        "path": "/vless",
+        "headers": {
+          "Host": "45.89.52.193"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-148c47ad",
+      "server": "77.91.100.41",
+      "server_port": 443,
+      "uuid": "1e2c0b2f-bc2c-595a-93e5-2579e980e530",
+      "flow": "",
+      "transport": {
+        "path": "/vless",
+        "headers": {
+          "Host": "77.91.100.41"
+        },
+        "type": "ws"
+      },
+      "tls": {
+        "enabled": true,
+        "server_name": "zula.ir",
+        "insecure": true
+      }
+    },
+    {
       "type": "hysteria2",
-      "tag": "hysteria2-9ea9834f",
-      "server": "23.132.228.217",
-      "server_port": 49572,
-      "password": "45cc0b3a-0adb-4dcc-8f54-4ba3d2cc274e",
+      "tag": "hysteria2-52cf9d08",
+      "server": "172.252.236.213",
+      "server_port": 56704,
+      "password": "23125f6e-ec56-4c26-9714-0bbacdb53d01",
       "tls": {
         "enabled": true,
         "server_name": "dxobg4azmk.gafnode.sbs",
+        "insecure": true
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "hysteria2-7acc1926",
+      "server": "172.252.236.213",
+      "server_port": 56704,
+      "password": "f901861b-6491-450c-b500-606b2e921625",
+      "tls": {
+        "enabled": true,
+        "server_name": "dxobg4azmk.gafnode.sbs",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-b36b1ed1",
+      "server": "server1.fergalvpnmod.com",
+      "server_port": 28338,
+      "uuid": "0b9ee474-19f6-4d7f-9281-96f239e6cebc",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-9dd91158",
+      "server": "server1.fergalvpnmod.com",
+      "server_port": 28338,
+      "uuid": "0b9ee474-19f6-4d7f-9281-96f239e6cebc",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-faebf062",
+      "server": "server1.fergalvpnmod.com",
+      "server_port": 28338,
+      "uuid": "0b9ee474-19f6-4d7f-9281-96f239e6cebc",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-787814ca",
+      "server": "server1.fergalvpnmod.com",
+      "server_port": 28338,
+      "uuid": "0b9ee474-19f6-4d7f-9281-96f239e6cebc",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-dbf78d70",
+      "server": "45.82.251.121",
+      "server_port": 8880,
+      "uuid": "e4824193-4f54-453b-d037-88368e85ef0e",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "45.82.251.121",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-67dd1ec8",
+      "server": "78.159.131.107",
+      "server_port": 443,
+      "uuid": "10f3650d-32f6-470a-b100-e29471cf3380",
+      "flow": "xtls-rprx-vision",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "pingless.com",
+        "insecure": true
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-f9e8689e",
+      "server": "api.node.snap.com.digi-gamingzone.koalavault.servers807.ir",
+      "server_port": 2025,
+      "uuid": "9705cfd1-d9b6-4d46-831e-ad06550d8e9a",
+      "flow": "",
+      "transport": {},
+      "tls": {
+        "enabled": true,
+        "server_name": "journalofbigdata.springeropen.com",
         "insecure": true
       }
     }
